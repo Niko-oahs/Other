@@ -38,3 +38,6 @@ sudo yum makecache
 # 必要更新
 sudo yum update -y
 sudo yum install -y yum-utils
+
+# 安装防火墙：
+sudo yum install firewalld
